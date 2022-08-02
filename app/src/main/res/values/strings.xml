@@ -5,4 +5,8 @@
     <string name="question_article">ВАМ НРАВИТСЯ ЭТА СТАТЬЯ?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="yes_message">LIKE THIS</string>
+    <string name="no_message">THANKS FOR ANSWER</string>
+    <string name="title1">Cry of a Shadow</string>
+    <string name="article1">Композиция была записана 22 июня 1961 года в Гамбурге в то время, когда группа (ещё под названием The Beat Brothers) сотрудничала с Тони Шериданом, и является первой профессионально записанной композицией «Битлз».</string>
 </resources>
