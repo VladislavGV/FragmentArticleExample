@@ -25,20 +25,18 @@
         app:layout_constraintEnd_toEndOf="@+id/fragment"
         app:layout_constraintStart_toStartOf="@+id/fragment"
         app:layout_constraintTop_toBottomOf="@+id/fragment"
-        tools:layout="@layout/fragment_rating_bar"
-        />
+        tools:layout="@layout/fragment_rating_bar"/>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="92dp"
         android:layout_marginLeft="@dimen/image_left_margin"
         android:layout_marginTop="150dp"
         android:scaleType="centerCrop"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:csrCompat="@drawable/beatles_anthology_box"
-        />
+        app:srcCompat="@drawable/beatles"/>
 
     <TextView
         android:id="@+id/title"
@@ -63,7 +61,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="@dimen/standard_margin"
         app:layout_constraintTop_toBottomOf="@+id/title"
-        android:layout_MarginLeft="0dp"
+
         android:layout_marginStart="0dp"
         app:layout_constraintLeft_toLeftOf="@+id/title"
         app:layout_constraintBottom_toBottomOf="parent"
